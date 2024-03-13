@@ -3,4 +3,10 @@ type TabContentContextType = {
     setTabContentId: React.Dispatch<React.SetStateAction<number>> | null
 }
 
-export type {TabContentContextType};
+type TabType =  {
+    id: number;
+    title: string;
+    text: string;
+} 
+
+export type {TabContentContextType, TabType};
