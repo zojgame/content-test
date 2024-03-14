@@ -25,4 +25,24 @@
 body {
   font-family: "Cera Pro", sans-serif;
   font-style: normal;
+
+  scrollbar-color: #0078ee;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #adb6bf66;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0078ee;
+  border-radius: 99px;
+}
+
+:fullscreen::backdrop {
+  background: none;
 }
